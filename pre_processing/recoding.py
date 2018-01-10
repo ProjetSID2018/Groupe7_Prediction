@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# groupe 7
+# group 7
 
 import pandas as pd
 import pickle
@@ -35,8 +35,7 @@ def recode_data(path):
     return df
 
 
-path = '/home/sidu1/Documents/Projet inter-promo 2018/target_press_article/'
-df = recode_data(path)
+df = recode_data('../../articles/')
 
 # Save our Dataframe with clean categories in a pickle file
-pickle.dump(df, open('../recoded_df', 'wb'))
+pickle.dump(df, open('../../recoded_df', 'wb'))

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# groupe 7
+# group 7
 
 import pickle
 
